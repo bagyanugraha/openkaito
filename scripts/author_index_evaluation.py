@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from elasticsearch import Elasticsearch
 
 from openkaito.crawlers.twitter.apidojo import ApiDojoTwitterCrawler
-from openkaito.crawlers.twitter.microworlds import MicroworldsTwitterCrawler
+#from openkaito.crawlers.twitter.microworlds import MicroworldsTwitterCrawler
 from openkaito.evaluation.evaluator import Evaluator
 from openkaito.protocol import SearchSynapse, SortType, StructuredSearchSynapse
 from openkaito.search.ranking.heuristic_ranking import HeuristicRankingModel
