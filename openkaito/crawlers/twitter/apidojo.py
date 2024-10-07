@@ -12,7 +12,7 @@ class ApiDojoTwitterCrawler:
 
         self.timeout_secs = timeout_secs
 
-        self.actor_id = "apidojo/tweet-scraper"
+        self.actor_id = "apidojo/twitter-list-scraper"
 
     def get_tweets_by_urls(self, urls: list):
         """
