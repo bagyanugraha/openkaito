@@ -27,7 +27,7 @@ from elasticsearch import Elasticsearch
 import openkaito
 from openkaito.base.miner import BaseMinerNeuron
 from openkaito.crawlers.twitter.apidojo import ApiDojoTwitterCrawler
-from openkaito.protocol import (
+from openkaito.utils.protocol import (
     DiscordSearchSynapse,
     SearchSynapse,
     SemanticSearchSynapse,
